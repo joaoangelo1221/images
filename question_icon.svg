@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+<!-- círculo externo -->
+<circle cx="256" cy="256" r="200" fill="none" stroke="#d6d6d6" stroke-width="36"></circle>
+
+<!-- ponto de interrogação -->
+<path d="M256 160
+c-40 0-70 24-70 60
+h36
+c0-16 14-28 34-28
+s34 12 34 28
+c0 18-14 26-32 36
+-20 12-32 26-32 54
+h36
+c0-16 8-24 24-34
+22-14 40-30 40-56
+0-36-30-60-70-60z" fill="#d6d6d6"></path>
+
+<!-- ponto inferior -->
+<circle cx="256" cy="360" r="16" fill="#d6d6d6"></circle>
+
+</svg>
