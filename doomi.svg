@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+<defs>
+
+<radialGradient id="glass" cx="50%" cy="40%" r="70%">
+<stop offset="0%" stop-color="#4a4a4a"></stop>
+<stop offset="100%" stop-color="#0b0b0b"></stop>
+</radialGradient>
+
+<radialGradient id="lens" cx="50%" cy="45%" r="60%">
+<stop offset="0%" stop-color="#1a1a1a"></stop>
+<stop offset="100%" stop-color="#000000"></stop>
+</radialGradient>
+
+<radialGradient id="body" cx="50%" cy="40%" r="70%">
+<stop offset="0%" stop-color="#ffffff"></stop>
+<stop offset="100%" stop-color="#d8d8d8"></stop>
+</radialGradient>
+
+</defs>
+
+<!-- carcaça -->
+<ellipse cx="256" cy="150" rx="190" ry="90" fill="url(#body)"></ellipse>
+<ellipse cx="256" cy="210" rx="185" ry="45" fill="#e5e5e5"></ellipse>
+
+<!-- parafusos -->
+<circle cx="256" cy="120" r="6" fill="#9c9c9c"></circle>
+<circle cx="140" cy="205" r="6" fill="#9c9c9c"></circle>
+<circle cx="372" cy="205" r="6" fill="#9c9c9c"></circle>
+
+<!-- dome -->
+<ellipse cx="256" cy="320" rx="150" ry="135" fill="url(#glass)"></ellipse>
+
+<!-- conjunto da lente -->
+<g>
+
+<circle cx="256" cy="320" r="55" fill="url(#lens)"></circle>
+<circle cx="256" cy="320" r="26" fill="#050505"></circle>
+
+<!-- reflexo -->
+<ellipse cx="238" cy="302" rx="10" ry="6" fill="#ffffff" opacity="0.35"></ellipse>
+
+<!-- micro movimento operacional -->
+<animateTransform attributeName="transform" type="translate" values="-10 0;10 0;-10 0" dur="1.2s" repeatCount="indefinite"></animateTransform>
+
+</g>
+
+<!-- LEDs IR -->
+<g fill="#d8d8d8">
+
+<circle cx="256" cy="245" r="5"></circle>
+<circle cx="292" cy="255" r="5"></circle>
+<circle cx="314" cy="285" r="5"></circle>
+<circle cx="314" cy="320" r="5"></circle>
+<circle cx="292" cy="350" r="5"></circle>
+<circle cx="256" cy="360" r="5"></circle>
+<circle cx="220" cy="350" r="5"></circle>
+<circle cx="198" cy="320" r="5"></circle>
+<circle cx="198" cy="285" r="5"></circle>
+<circle cx="220" cy="255" r="5"></circle>
+
+<!-- pulso IR -->
+<animate attributeName="opacity" values="1;0.4;1" dur="0.8s" repeatCount="indefinite"></animate>
+
+</g>
+
+<!-- ondas de monitoramento -->
+<circle cx="256" cy="320" r="70" stroke="#00eaff" stroke-width="3" fill="none" opacity="0.6">
+
+<animate attributeName="r" values="70;200" dur="1.5s" repeatCount="indefinite"></animate>
+
+<animate attributeName="opacity" values="0.6;0" dur="1.5s" repeatCount="indefinite"></animate>
+
+</circle>
+
+<circle cx="256" cy="320" r="70" stroke="#00eaff" stroke-width="3" fill="none" opacity="0.6">
+
+<animate attributeName="r" values="70;200" dur="1.5s" begin="0.7s" repeatCount="indefinite"></animate>
+
+<animate attributeName="opacity" values="0.6;0" dur="1.5s" begin="0.7s" repeatCount="indefinite"></animate>
+
+</circle>
+
+</svg>
