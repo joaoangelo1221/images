@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+
+<g>
+
+<!-- seta -->
+<path d="M128 40 L60 120 H100 V200 H156 V120 H196 Z" fill="#00e676"></path>
+
+<!-- animação suave de estabilidade -->
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="1.6s" repeatCount="indefinite"></animateTransform>
+
+</g>
+
+</svg>
