@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+
+<!-- monitor -->
+<rect x="60" y="40" width="200" height="120" rx="8" fill="#0a0000" stroke="#ff3b3b" stroke-width="3"></rect>
+
+<!-- tela -->
+<rect x="70" y="50" width="180" height="100" fill="#1a0202"></rect>
+
+<!-- linhas de falha -->
+<line x1="80" y1="95" x2="240" y2="95" stroke="#ff3b3b" stroke-width="2" opacity="0.6">
+
+<animate attributeName="opacity" values="0.2;1;0.2" dur="0.8s" repeatCount="indefinite"></animate>
+
+</line>
+
+<line x1="80" y1="115" x2="240" y2="115" stroke="#ff3b3b" stroke-width="2" opacity="0.6">
+
+<animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"></animate>
+
+</line>
+
+<!-- suporte -->
+<rect x="145" y="160" width="30" height="20" fill="#ff3b3b"></rect>
+
+<rect x="120" y="180" width="80" height="10" fill="#ff3b3b"></rect>
+
+<!-- gabinete -->
+<rect x="260" y="90" width="30" height="70" rx="4" fill="#1a0202" stroke="#ff3b3b" stroke-width="2"></rect>
+
+<!-- LED de erro -->
+<circle cx="275" cy="145" r="4" fill="#ff3b3b">
+
+<animate attributeName="opacity" values="1;0.1;1" dur="0.7s" repeatCount="indefinite"></animate>
+
+</circle>
+
+<!-- LED crítico -->
+<circle cx="275" cy="125" r="3" fill="#ff3b3b">
+
+<animate attributeName="opacity" values="0.2;1;0.2" dur="0.5s" repeatCount="indefinite"></animate>
+
+</circle>
+
+</svg>

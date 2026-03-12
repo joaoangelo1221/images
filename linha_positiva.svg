@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 40">
+
+<!-- linha principal -->
+<line x1="10" y1="20" x2="390" y2="20" stroke="#00ff88" stroke-width="3" opacity="0.5"></line>
+
+<!-- pulso de dados -->
+<circle cx="10" cy="20" r="3" fill="#00ff88">
+
+<animate attributeName="cx" values="10;390" dur="2s" repeatCount="indefinite"></animate>
+
+</circle>
+
+<!-- pulso secundário -->
+<circle cx="10" cy="20" r="2" fill="#00ff88" opacity="0.7">
+
+<animate attributeName="cx" values="10;390" dur="2s" begin="1s" repeatCount="indefinite"></animate>
+
+</circle>
+
+</svg>

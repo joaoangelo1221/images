@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260">
+
+<!-- servidor -->
+<rect x="120" y="60" width="100" height="120" rx="8" fill="#021a0f" stroke="#00ff88" stroke-width="3"></rect>
+
+<!-- baias -->
+<rect x="130" y="75" width="80" height="20" fill="#042b18"></rect>
+
+<rect x="130" y="105" width="80" height="20" fill="#042b18"></rect>
+
+<rect x="130" y="135" width="80" height="20" fill="#042b18"></rect>
+
+<!-- leds -->
+<circle cx="200" cy="85" r="3" fill="#00ff88">
+<animate attributeName="opacity" values="1;0.3;1" dur="0.8s" repeatCount="indefinite"></animate>
+</circle>
+
+<circle cx="200" cy="115" r="3" fill="#00ff88">
+<animate attributeName="opacity" values="0.3;1;0.3" dur="0.7s" repeatCount="indefinite"></animate>
+</circle>
+
+<circle cx="200" cy="145" r="3" fill="#00ff88">
+<animate attributeName="opacity" values="1;0.4;1" dur="0.9s" repeatCount="indefinite"></animate>
+</circle>
+
+<!-- nó central do AD -->
+<circle cx="70" cy="120" r="10" fill="#00ff88">
+
+<animate attributeName="r" values="10;13;10" dur="1.5s" repeatCount="indefinite"></animate>
+
+</circle>
+
+<!-- conexão AD -->
+<line x1="80" y1="120" x2="120" y2="120" stroke="#00ff88" stroke-width="3"></line>
+
+<!-- fluxo de dados -->
+<circle cx="90" cy="120" r="3" fill="#00ff88">
+
+<animate attributeName="cx" values="90;115;90" dur="1.4s" repeatCount="indefinite"></animate>
+
+</circle>
+
+<circle cx="100" cy="120" r="3" fill="#00ff88">
+
+<animate attributeName="cx" values="100;115;100" dur="1.2s" repeatCount="indefinite"></animate>
+
+</circle>
+
+<!-- diretório (rede AD) -->
+<circle cx="270" cy="90" r="6" fill="#00ff88"></circle>
+<circle cx="300" cy="120" r="6" fill="#00ff88"></circle>
+<circle cx="270" cy="150" r="6" fill="#00ff88"></circle>
+
+<!-- conexões -->
+<line x1="220" y1="110" x2="270" y2="90" stroke="#00ff88" stroke-width="2"></line>
+
+<line x1="220" y1="120" x2="300" y2="120" stroke="#00ff88" stroke-width="2"></line>
+
+<line x1="220" y1="130" x2="270" y2="150" stroke="#00ff88" stroke-width="2"></line>
+
+<!-- pulso de replicação -->
+<circle cx="240" cy="120" r="3" fill="#00ff88">
+
+<animate attributeName="cx" values="220;300" dur="2s" repeatCount="indefinite"></animate>
+
+</circle>
+
+</svg>
