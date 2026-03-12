@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+
+<g>
+
+<!-- seta para baixo (mesma geometria invertida) -->
+<path d="M128 216 L196 136 H156 V56 H100 V136 H60 Z" fill="#ff3b3b"></path>
+
+<!-- animação suave descendente -->
+<animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="1.6s" repeatCount="indefinite"></animateTransform>
+
+</g>
+
+</svg>
