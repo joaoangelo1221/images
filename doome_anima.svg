@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+<!-- corpo da câmera -->
+<ellipse cx="256" cy="170" rx="170" ry="80" fill="#e6e6e6"></ellipse>
+
+<!-- aro -->
+<ellipse cx="256" cy="210" rx="165" ry="40" fill="#d0d0d0"></ellipse>
+
+<!-- dome -->
+<ellipse cx="256" cy="300" rx="130" ry="110" fill="#2a2a2a"></ellipse>
+
+<!-- grupo da lente -->
+<g>
+
+<!-- lente -->
+<circle cx="256" cy="300" r="40" fill="#111"></circle>
+
+<!-- animação de varredura -->
+<animateTransform attributeName="transform" type="translate" values="-6 0;6 0;-6 0" dur="3s" repeatCount="indefinite"></animateTransform>
+
+</g>
+
+<!-- LED indicador -->
+<circle cx="340" cy="190" r="8" fill="#00ff7a">
+
+<animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"></animate>
+
+</circle>
+
+<!-- ondas de monitoramento -->
+
+<circle cx="256" cy="300" r="60" stroke="#00ffcc" stroke-width="3" fill="none" opacity="0">
+
+<animate attributeName="r" values="60;150" dur="2s" repeatCount="indefinite"></animate>
+
+<animate attributeName="opacity" values="0.6;0" dur="2s" repeatCount="indefinite"></animate>
+
+</circle>
+
+<circle cx="256" cy="300" r="60" stroke="#00ffcc" stroke-width="3" fill="none" opacity="0">
+
+<animate attributeName="r" values="60;150" dur="2s" begin="1s" repeatCount="indefinite"></animate>
+
+<animate attributeName="opacity" values="0.6;0" dur="2s" begin="1s" repeatCount="indefinite"></animate>
+
+</circle>
+
+</svg>
