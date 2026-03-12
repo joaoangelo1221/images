@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+
+<!-- monitor -->
+<rect x="60" y="40" width="200" height="120" rx="8" fill="#0f0f0f" stroke="#9a9a9a" stroke-width="3"></rect>
+
+<!-- tela -->
+<rect x="70" y="50" width="180" height="100" fill="#1c1c1c"></rect>
+
+<!-- linhas de atividade -->
+<line x1="80" y1="90" x2="240" y2="90" stroke="#bfbfbf" stroke-width="2">
+
+<animate attributeName="x1" values="80;110;80" dur="1.4s" repeatCount="indefinite"></animate>
+
+<animate attributeName="x2" values="240;210;240" dur="1.4s" repeatCount="indefinite"></animate>
+
+</line>
+
+<line x1="80" y1="110" x2="240" y2="110" stroke="#bfbfbf" stroke-width="2" opacity="0.7">
+
+<animate attributeName="x1" values="80;120;80" dur="1.2s" repeatCount="indefinite"></animate>
+
+<animate attributeName="x2" values="240;200;240" dur="1.2s" repeatCount="indefinite"></animate>
+
+</line>
+
+<!-- suporte -->
+<rect x="145" y="160" width="30" height="20" fill="#9a9a9a"></rect>
+
+<rect x="120" y="180" width="80" height="10" fill="#9a9a9a"></rect>
+
+<!-- gabinete -->
+<rect x="260" y="90" width="30" height="70" rx="4" fill="#1c1c1c" stroke="#9a9a9a" stroke-width="2"></rect>
+
+<!-- LED -->
+<circle cx="275" cy="145" r="4" fill="#bfbfbf">
+
+<animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"></animate>
+
+</circle>
+
+<!-- atividade -->
+<circle cx="275" cy="125" r="3" fill="#bfbfbf">
+
+<animate attributeName="opacity" values="0.2;1;0.2" dur="0.6s" repeatCount="indefinite"></animate>
+
+</circle>
+
+</svg>

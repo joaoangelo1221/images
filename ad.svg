@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260">
+
+<!-- servidor -->
+<rect x="120" y="60" width="100" height="120" rx="8" fill="#1a1a1a" stroke="#9a9a9a" stroke-width="3"></rect>
+
+<!-- baias -->
+<rect x="130" y="75" width="80" height="20" fill="#2a2a2a"></rect>
+<rect x="130" y="105" width="80" height="20" fill="#2a2a2a"></rect>
+<rect x="130" y="135" width="80" height="20" fill="#2a2a2a"></rect>
+
+<!-- LEDs neutros -->
+<circle cx="200" cy="85" r="3" fill="#bfbfbf">
+<animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.6s" repeatCount="indefinite"></animate>
+</circle>
+
+<circle cx="200" cy="115" r="3" fill="#bfbfbf">
+<animate attributeName="opacity" values="0.3;0.7;0.3" dur="1.8s" repeatCount="indefinite"></animate>
+</circle>
+
+<circle cx="200" cy="145" r="3" fill="#bfbfbf">
+<animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.7s" repeatCount="indefinite"></animate>
+</circle>
+
+</svg>
