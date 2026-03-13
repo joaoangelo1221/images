@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80">
+
+<defs>
+
+<linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#6e7681"></stop>
+<stop offset="50%" stop-color="#c4ccd6"></stop>
+<stop offset="100%" stop-color="#6e7681"></stop>
+</linearGradient>
+
+</defs>
+
+<!-- linha principal -->
+<line x1="20" y1="40" x2="380" y2="40" stroke="url(#lineGrad)" stroke-width="6" stroke-linecap="round" opacity="0.8"></line>
+
+<!-- fluxo principal -->
+<circle r="5" fill="#d5dbe3">
+<animateMotion dur="2s" repeatCount="indefinite" path="M20 40 L380 40"></animateMotion>
+</circle>
+
+<!-- fluxo secundário -->
+<circle r="4" fill="#c4ccd6" opacity="0.7">
+<animateMotion dur="2s" begin="1s" repeatCount="indefinite" path="M20 40 L380 40"></animateMotion>
+</circle>
+
+<!-- fluxo terciário -->
+<circle r="3" fill="#e5eaf0" opacity="0.5">
+<animateMotion dur="2s" begin="1.5s" repeatCount="indefinite" path="M20 40 L380 40"></animateMotion>
+</circle>
+
+</svg>
