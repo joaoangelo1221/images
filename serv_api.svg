@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+
+<defs>
+
+<radialGradient id="bgGrad">
+<stop offset="0%" stop-color="#002a52"></stop>
+<stop offset="100%" stop-color="#001226"></stop>
+</radialGradient>
+
+<linearGradient id="cloudGrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#3da0ff"></stop>
+<stop offset="100%" stop-color="#1e7fd1"></stop>
+</linearGradient>
+
+<linearGradient id="serverGrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#ffc04d"></stop>
+<stop offset="100%" stop-color="#ff8a00"></stop>
+</linearGradient>
+
+</defs>
+
+<!-- círculo -->
+<circle cx="110" cy="110" r="95" fill="url(#bgGrad)" stroke="#0a5ea8" stroke-width="4"></circle>
+
+<!-- nuvem -->
+<path d="
+M60 120
+C35 120 35 90 55 82
+C60 60 100 60 110 80
+C135 60 170 75 170 100
+C185 100 185 120 165 125
+Z" fill="url(#cloudGrad)" stroke="#083b61" stroke-width="3"></path>
+
+<!-- servidor -->
+<rect x="78" y="92" width="64" height="56" rx="8" fill="url(#serverGrad)" stroke="#9b4f00" stroke-width="2"></rect>
+
+<!-- linhas servidor -->
+<g stroke="#703600" stroke-width="2">
+<line x1="88" y1="106" x2="132" y2="106"></line>
+<line x1="88" y1="116" x2="132" y2="116"></line>
+<line x1="88" y1="126" x2="132" y2="126"></line>
+</g>
+
+<!-- leds -->
+<circle cx="90" cy="136" r="4" fill="#00ff7a">
+<animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"></animate>
+</circle>
+
+<circle cx="130" cy="136" r="4" fill="#00ff7a">
+<animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"></animate>
+</circle>
+
+<!-- fluxo API -->
+
+<circle cx="30" cy="110" r="5" fill="#39d6ff">
+<animate attributeName="cx" values="30;75" dur="1.4s" repeatCount="indefinite"></animate>
+</circle>
+
+<circle cx="190" cy="110" r="5" fill="#39d6ff">
+<animate attributeName="cx" values="190;145" dur="1.4s" repeatCount="indefinite"></animate>
+</circle>
+
+</svg>
