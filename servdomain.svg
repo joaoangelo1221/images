@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+<!-- círculo base -->
+<circle cx="100" cy="100" r="90" fill="#0b1f33" stroke="#0e5aa7" stroke-width="3"></circle>
+
+<!-- logo Windows centralizado -->
+<g fill="#3da0ff">
+
+<rect x="75" y="25" width="22" height="22">
+<animate attributeName="opacity" values="0.4;1;0.4" dur="1.4s" repeatCount="indefinite"></animate>
+</rect>
+
+<rect x="103" y="25" width="22" height="22">
+<animate attributeName="opacity" values="1;0.4;1" dur="1.4s" repeatCount="indefinite"></animate>
+</rect>
+
+<rect x="75" y="53" width="22" height="22">
+<animate attributeName="opacity" values="1;0.4;1" dur="1.4s" repeatCount="indefinite"></animate>
+</rect>
+
+<rect x="103" y="53" width="22" height="22">
+<animate attributeName="opacity" values="0.4;1;0.4" dur="1.4s" repeatCount="indefinite"></animate>
+</rect>
+
+</g>
+
+<!-- servidor centralizado -->
+<rect x="60" y="85" width="80" height="80" rx="8" fill="#2c3137" stroke="#11161b" stroke-width="2"></rect>
+
+<!-- linhas rack -->
+<g stroke="#cfd6dd" stroke-width="2">
+<line x1="75" y1="105" x2="125" y2="105"></line>
+<line x1="75" y1="120" x2="125" y2="120"></line>
+<line x1="75" y1="135" x2="125" y2="135"></line>
+</g>
+
+<!-- leds -->
+<circle cx="75" cy="150" r="4" fill="#00ff7a">
+<animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"></animate>
+</circle>
+
+<circle cx="125" cy="150" r="4" fill="#00ff7a">
+<animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"></animate>
+</circle>
+
+</svg>

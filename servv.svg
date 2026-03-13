@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+<!-- círculo base -->
+<circle cx="100" cy="100" r="90" fill="#0b1f33" stroke="#0e5aa7" stroke-width="3"></circle>
+
+<!-- servidor maior -->
+<rect x="55" y="55" width="90" height="110" rx="10" fill="#2c3137" stroke="#11161b" stroke-width="2"></rect>
+
+<!-- linhas rack -->
+<g stroke="#cfd6dd" stroke-width="2">
+<line x1="70" y1="80" x2="130" y2="80"></line>
+<line x1="70" y1="105" x2="130" y2="105"></line>
+<line x1="70" y1="130" x2="130" y2="130"></line>
+</g>
+
+<!-- leds -->
+<circle cx="72" cy="150" r="5" fill="#00ff7a">
+<animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"></animate>
+</circle>
+
+<circle cx="128" cy="150" r="5" fill="#00ff7a">
+<animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"></animate>
+</circle>
+
+</svg>
