@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+<!-- TORRE SIMPLIFICADA -->
+<g stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round">
+
+<!-- estrutura principal -->
+<line x1="100" y1="30" x2="80" y2="180"></line>
+<line x1="100" y1="30" x2="120" y2="180"></line>
+<line x1="80" y1="180" x2="120" y2="180"></line>
+
+<!-- travessas horizontais -->
+<line x1="92" y1="70" x2="108" y2="70"></line>
+<line x1="88" y1="100" x2="112" y2="100"></line>
+<line x1="84" y1="130" x2="116" y2="130"></line>
+<line x1="82" y1="155" x2="118" y2="155"></line>
+
+<!-- diagonais leves -->
+<line x1="80" y1="180" x2="100" y2="140"></line>
+<line x1="120" y1="180" x2="100" y2="140"></line>
+
+<line x1="88" y1="130" x2="100" y2="100"></line>
+<line x1="112" y1="130" x2="100" y2="100"></line>
+
+<line x1="92" y1="100" x2="100" y2="70"></line>
+<line x1="108" y1="100" x2="100" y2="70"></line>
+
+</g>
+
+<!-- TOPO -->
+<circle cx="100" cy="30" r="5" fill="#FFFFFF"></circle>
+
+<!-- ONDAS (PULSO SUAVE) -->
+<g stroke="#00AEEF" stroke-width="3" fill="none" stroke-linecap="round">
+
+<!-- esquerda -->
+<g transform="translate(100 30)">
+  <ellipse cx="-10" cy="0" rx="10" ry="10">
+    <animate attributeName="rx" values="10;12;10" dur="2s" repeatCount="indefinite"></animate>
+    <animate attributeName="ry" values="10;12;10" dur="2s" repeatCount="indefinite"></animate>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"></animate>
+  </ellipse>
+
+  <ellipse cx="-18" cy="0" rx="18" ry="18">
+    <animate attributeName="rx" values="18;21;18" dur="2s" begin="0.2s" repeatCount="indefinite"></animate>
+    <animate attributeName="ry" values="18;21;18" dur="2s" begin="0.2s" repeatCount="indefinite"></animate>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" begin="0.2s" repeatCount="indefinite"></animate>
+  </ellipse>
+
+  <ellipse cx="-26" cy="0" rx="26" ry="26">
+    <animate attributeName="rx" values="26;30;26" dur="2s" begin="0.4s" repeatCount="indefinite"></animate>
+    <animate attributeName="ry" values="26;30;26" dur="2s" begin="0.4s" repeatCount="indefinite"></animate>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" begin="0.4s" repeatCount="indefinite"></animate>
+  </ellipse>
+</g>
+
+<!-- direita -->
+<g transform="translate(100 30)">
+  <ellipse cx="10" cy="0" rx="10" ry="10">
+    <animate attributeName="rx" values="10;12;10" dur="2s" repeatCount="indefinite"></animate>
+    <animate attributeName="ry" values="10;12;10" dur="2s" repeatCount="indefinite"></animate>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"></animate>
+  </ellipse>
+
+  <ellipse cx="18" cy="0" rx="18" ry="18">
+    <animate attributeName="rx" values="18;21;18" dur="2s" begin="0.2s" repeatCount="indefinite"></animate>
+    <animate attributeName="ry" values="18;21;18" dur="2s" begin="0.2s" repeatCount="indefinite"></animate>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" begin="0.2s" repeatCount="indefinite"></animate>
+  </ellipse>
+
+  <ellipse cx="26" cy="0" rx="26" ry="26">
+    <animate attributeName="rx" values="26;30;26" dur="2s" begin="0.4s" repeatCount="indefinite"></animate>
+    <animate attributeName="ry" values="26;30;26" dur="2s" begin="0.4s" repeatCount="indefinite"></animate>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" begin="0.4s" repeatCount="indefinite"></animate>
+  </ellipse>
+</g>
+
+</g>
+
+</svg>
